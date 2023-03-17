@@ -11,10 +11,12 @@ def ai(image):
     image = np.expand_dims(image, axis=0)
     image = 2*(image/255)-1
     predection=model.predict(image,verbose=0)
-    print(str(predection[0][0])+"%")
-    if predection < 0.3:
+    
+    if predection < 0.5:
+        print(f"{1-predection[0][0]:.2f}%\")
         print("no fire")
     else:
+        print(f"{predection[0][0]:.2f}%\")
         print("fire")
 
 

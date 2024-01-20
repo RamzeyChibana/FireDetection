@@ -1,16 +1,5 @@
-# IgnitionGuard
-# Preventing Fire spread from harming the earth
+# FireDetection
 
-## How it Works :
-
-### The system consists of three services that work together to provide comprehensive fire safety and response capabilities: fire tracking, alerting emergency, and fire spread prediction.
-<br>
-The fire tracking service utilizes cameras and AI to detect fires in real-time. Cameras are installed in strategic locations where they can effectively monitor for signs of fire. As the cameras capture footage, the video feed is sent to an AI model for analysis. The AI model is trained to recognize the visual patterns associated with fires.
-<br>
-<br>
-
-
-# Deep Learning
 we Trained our model from scratch using TensorFlow Framework 
 <br>
 ## How it works :
